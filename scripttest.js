@@ -1,3 +1,4 @@
+/* Code for the Modal box */
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -23,8 +24,8 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
-var myVar;
+/* Code for the charging */
+var timeout;
 
 function myFunction() {
     myVar = setTimeout(showPage, 3000);
