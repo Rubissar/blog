@@ -3,6 +3,7 @@ main
 	display: flex;
 	flex-wrap: wrap;
 }
+/* Section Style */
 section
 {
 	border: 2px grey solid;
@@ -168,7 +169,7 @@ form #submit
 	text-decoration: none;
 	cursor: pointer;
 }
-
+/* The modal content */
 .modal-header {
 	padding: 2px 16px;
 	background-color: darkgrey;
@@ -206,7 +207,7 @@ form #submit
 	height: 120px;
 	animation: spin 2s linear infinite;
 }
-
+/* Spinner in the bottom */
 #spin-bottom
 {
 	border: 10px blue solid;
@@ -218,7 +219,7 @@ form #submit
 	bottom: 50px;
 	left: -200px;
 	animation: spinbottom 10s infinite 2s linear;
-}
+} 
 @keyframes spinbottom {
 	0% { transform: rotate(0deg); left: -50px;}
 	100% { transform: rotate(1000deg); left: 130%;}
