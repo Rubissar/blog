@@ -1,7 +1,7 @@
 <?php 
 
 try {
-	$db = new PDO('mysql:host=localhost;dbname=phpmyadmin;charset=utf8', 'phpmyadmin', 'admin');
+	$db = new PDO('mysql:host=localhost;dbname=phpmyadmin;charset=utf8', 'pseudo', 'password');
 } catch (Exception $e) {
 	die('Erreur : '.$e->getMessage());
 }
